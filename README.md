@@ -58,6 +58,13 @@ Individual-specific effects capture unobserved heterogeneity across individuals 
 
 For example, in a panel data set that tracks the earnings of individuals over time, individual-specific effects can capture unobserved factors such as differences in innate ability, personality traits, or social networks that affect an individual's earnings potential, but remain constant over time.
 
+#### Fixed and Random Effects Models
+To capture individual-specific effects, we can use either fixed effects or random effects models. 
+
+- Fixed effects models assume that the individual-specific effects are correlated with the independent variables.  In other words, fixed effects models assume that individual-specific effects are constant over time and try to estimate how the independent variables affect changes within each individual.
+- Random effects models assume that the individual-specific effects are uncorrelated with the independent variables. Instead, they estimate the variance of the individual-specific effects and use that to adjust the coefficients of the independent variables.
+
+
 ### Wide vs Long Panel Datasets?
 
 Panel datasets can be organized in either long or wide format. 
